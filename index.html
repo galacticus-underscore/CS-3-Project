@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      ul {
-          ul {
+  <style>
+        ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         width: 150px;
+         background-color: rgb(42,157,143);
+        }
+        li a:link{
+         display: block;
+         color: black;
+         padding: 10px;
+         text-decoration: none;
+        }
+        li a:visited{
+         color: black;
+        }
+        li a:hover {
+         background-color: rgb(38,70,83);
+         color: white;
+        }
+        li a.active {
+         background-color: rgb(138,177,125);
+         color: white;
+        }
+     ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -12,7 +35,6 @@
       }
       li{
         float: left;
-      }
       }
     </style>
   </head>
